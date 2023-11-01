@@ -1,0 +1,5 @@
+venv/
+.DS_Store
+.env
+**/migrations/**
+!**/migrations/__init__.py

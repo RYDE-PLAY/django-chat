@@ -41,6 +41,7 @@ const Sidebar = (props) => {
 
   useEffect(() => {
     fetchChatUser();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const getConnectedUserIds = () => {

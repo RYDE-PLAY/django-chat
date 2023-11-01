@@ -33,6 +33,7 @@ const ChatBody = ({ match, currentChattingMember, setOnlineUserList }) => {
 
   useEffect(() => {
     fetchChatMessage();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [CommonUtil.getActiveChatId(match)]);
 
   const loggedInUserId = CommonUtil.getUserId();
